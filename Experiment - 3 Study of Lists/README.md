@@ -286,6 +286,7 @@ Contact list management
 Temperature analysis
 
 Conclusion
+
 All objectives achieved successfully. The experiment demonstrated:
 
 Flexibility: Lists store multiple data types and support dynamic modifications
