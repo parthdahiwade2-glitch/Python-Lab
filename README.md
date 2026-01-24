@@ -88,6 +88,9 @@ len()	Number of elements
 max()	Maximum value
 min()	Minimum value
 sum()	Sum of elements
+
+Problem statements
+
 1. Student Marks Management System
 A teacher wants to store marks of students in a list.
 Tasks:
@@ -176,38 +179,7 @@ Rich Functionality: Built-in methods simplify common operations (add, remove, so
 Mutability: Elements can be modified, making lists ideal for changing datasets
 Real-world Utility: Lists effectively solve practical problems in data management and analysis
 
-Results
-1. List Creation & Properties
-
-Successfully created lists using [] and list() constructor
-Verified: ordered, indexed, mutable, heterogeneous, allows duplicates
-
-2. Indexing
-
-Positive indexing (0, 1, 2...) - left to right ✓
-Negative indexing (-1, -2, -3...) - right to left ✓
-
-3. Slicing
-
-Syntax list[start:end:step] worked correctly
-Beginning, ending, and full slices successful
-Original list unchanged (non-destructive)
-
-4. List Methods Performance
-MethodResultMethodResultappend()✓sort()✓insert()✓reverse()✓remove()✓count()✓pop()✓index()✓
-5. Built-in Functions
-
-len(), max(), min(), sum() - all executed successfully
-
-6. List Traversal
-
-for loop and while loop both accessed elements sequentially
-
-7. Practical Applications
-All five real-world scenarios completed:
-
-Student marks management
-Grocery shopping list
+ 
 Attendance register
 Contact list management
 Temperature analysis
