@@ -81,6 +81,42 @@ Phone directories
 Database records
 Configuration files
 
+Program 1: Creating and Accessing Dictionary
+
+student = {
+    "roll": 101,
+    "name": "Amit",
+    "branch": "CSE"
+}
+
+print("Name:", student["name"])
+________________________________________
+Program 2: Adding and Updating Elements
+student["year"] = "Second"
+student["name"] = "Rahul"
+
+print(student)
+________________________________________
+Program 3: Removing Elements
+student.pop("branch")
+print("After removal:", student)
+________________________________________
+Program 4: Dictionary Methods
+print("Keys:", student.keys())
+print("Values:", student.values())
+print("Items:", student.items())
+________________________________________
+Program 5: Iterating Through Dictionary
+for key, value in student.items():
+    print(key, ":", value)
+________________________________________
+Applications of Dictionary
+•	Student information systems
+•	Phone directories
+•	Database records
+•	Configuration files
+________________________________________
+
 Summary of Results
 
 OperationStatusSet creation✓Duplicate removal✓Union, Intersection, Difference✓Set methods (add, remove)✓Dictionary creation✓Dictionary access✓Adding/Updating elements✓Removing elements✓Dictionary methods✓Dictionary iteration✓
@@ -99,3 +135,7 @@ Allow quick data retrieval using keys
 Support adding, updating, and removing elements
 Essential for real-world applications like databases and configuration files
 All dictionary methods worked perfectly
+
+Conclusion
+Sets efficiently handle unique data and support mathematical operations, making them useful for data processing tasks.
+Dictionaries provide efficient storage and retrieval of data using keys, making them essential for real-world applications.
