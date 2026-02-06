@@ -1,185 +1,137 @@
 Experiment–4
 
 Title
-
 Tuples in Python: Creation, Access, and Operations
-________________________________________
-Aim
 
-To understand Python tuples and perform operations such as creation, indexing, slicing, and use of built-in functions.
-________________________________________
+Aim
+To learn about Python tuples and how to create, access, and perform operations on them.
+
 Objectives
 
-•	To understand the concept of tuples in Python
+Understand what tuples are in Python
+Learn characteristics and benefits of tuples
+Use indexing and slicing on tuples
+Apply built-in tuple functions
+Understand that tuples can't be changed
 
-•	To study characteristics and advantages of tuples
-
-•	To perform indexing and slicing on tuples
-
-•	To apply built-in tuple functions
-
-•	To understand immutability of tuples
-________________________________________
 Theory
 
 1. Introduction to Tuples
-
-A tuple is an ordered collection of elements in Python, similar to a list, but immutable in nature. Tuples are written using parentheses ( ) and elements are separated by commas.
-
+A tuple is like a list but you can't change it after creating it. Tuples use parentheses ( ) with elements separated by commas.
 Example:
+
 (10, 20, 30)
-________________________________________
+
 2. Characteristics of Tuples
 
-•	Ordered
+Ordered
 
-•	Indexed
+Indexed
 
-•	Immutable (cannot be changed after creation)
+Immutable (can't be changed)
 
-•	Allows duplicate values
+Allows duplicate values
 
-•	Can store heterogeneous data types
-________________________________________
-3. Why Tuples are Used
+Can store different data types
 
-•	Faster than lists
+3. Why Use Tuples
 
-•	Data integrity (values cannot be modified)
+Faster than lists
 
-•	Used for fixed data such as coordinates, days of week, database records
-________________________________________
+Data stays safe (can't be accidentally modified)
+
+Good for fixed data like coordinates, days of the week, database records
+
 4. Creating Tuples
 
-Tuples can be created:
+You can create tuples:
 
-•	With parentheses
 
-•	Without parentheses (tuple packing)
+With parentheses
 
-•	Using the tuple() constructor
+Without parentheses (tuple packing)
 
-Special cases:
+Using the tuple() constructor
 
-•	Single element tuple must have a trailing comma
+Special case:
+
+Single element tuple needs a comma:
+
 (10,)
-________________________________________
+
 5. Indexing in Tuples
 
-Tuple elements are accessed using index numbers, starting from 0.
+Access elements using index numbers starting from 0.
+Supports:
 
-Both:
+Positive indexing
 
-•	Positive indexing
+Negative indexing
 
-•	Negative indexing
-
-are supported.
-________________________________________
 6. Slicing in Tuples
 
-Slicing is used to extract a portion of a tuple.
-General Syntax:
+Extract part of a tuple.
 
+Syntax:
 tuple_name[start : end : step]
 
-Meaning of each part:
+start → where to begin (included)
 
-•	start → index to begin slicing (included)
+end → where to stop (excluded)
 
-•	end → index to stop slicing (excluded)
-
-•	step → gap between elements (optional)
+step → gap between elements (optional)
 
 7. Immutability of Tuples
+Once created:
 
-Once a tuple is created:
+Can't add elements
 
-•	Elements cannot be added
+Can't remove elements
 
-•	Elements cannot be removed
+Can't update elements
 
-•	Elements cannot be updated
+Trying to modify gives an error.
 
-Any attempt to modify results in an error.
-________________________________________
 8. Built-in Functions for Tuples
-
-Function	Description
-
-len()	Number of elements
-
-max()	Maximum value
-
-min()	Minimum value
-
-sum()	Sum of elements
-
-count()	Count occurrences
-
-index()	Find index of element
-________________________________________
+FunctionDescriptionlen()Number of elementsmax()Maximum valuemin()Minimum valuesum()Sum of elementscount()Count occurrencesindex()Find index of element
 
 9. Difference Between List and Tuple
+ListTupleMutableImmutableUses [ ]Uses ( )SlowerFasterDynamicFixed
 
-List	Tuple
+Problem Statements
 
-Mutable	Immutable
+1. Student Exam Result
 
-Uses [ ]	Uses ( )
+A student's exam result is stored in a tuple containing three fixed fields:
+Subject name, marks obtained, and grade.
+Write a Python program to:
 
-Slower	Faster
+Store the exam result using a tuple.
+Unpack the tuple elements into separate variables.
+Display the subject, marks, and grade.
+Check whether the student has scored 75 or more marks and print "Distinction" if the condition is satisfied.
 
-Dynamic	Fixed
+2. Employee Attendance Tracker
+
+An organization records an employee's daily attendance for a week using a tuple, where:
+"P" represents Present, "A" represents Absent
+Write a Python program to:
+
+Store the attendance record in a tuple.
+Count and display the total number of present days.
+Count and display the total number of absent days.
+Check whether the employee was absent at least once during the recorded period and display an appropriate message.
 
 Conclusion
-Thus, Python tuples were studied and operations such as creation, indexing, slicing, packing, unpacking, and built-in functions were successfully implemented.
 
+All objectives achieved! Tuples are:
 
-Problem Statements:
-1. A student’s exam result is stored in a tuple containing three fixed fields:
-Subject name, marks obtained, and grade.
+Immutable: Can't be changed after creation, keeping data safe
 
-Write a Python program to:
+Fast: Perform better than lists for fixed data
 
-•	Store the exam result using a tuple.
+Reliable: Perfect for data that shouldn't be modified
 
-•	Unpack the tuple elements into separate variables.
+Versatile: Support indexing, slicing, and built-in functions
 
-•	Display the subject, marks, and grade.
-
-•	Check whether the student has scored 75 or more marks and print “Distinction” if the condition is satisfied.
-
-2. An organization records an employee’s daily attendance for a week using a tuple, where:
-"P" represents Present, "A" represents Absent 
-
-Write a Python program to:
-
-•	Store the attendance record in a tuple.
-
-•	Count and display the total number of present days.
-
-•	Count and display the total number of absent days.
-
-•	Check whether the employee was absent at least once
-
-•	during the recorded period and display an appropriate message.
-
-Results
-
-1. Tuple Operations
-
-Creation (parentheses, packing, constructor, single element) 
-Positive/negative indexing 
-Slicing tuple[start:end:step] 
-Immutability verified (add/remove/update blocked) 
-
-2. Built-in Functions
-len(), max(), min(), sum(), count(), index() - all successful 
-3. Problem Statements
-
-Student Result: Unpacking and distinction check 
-Attendance: Count present (5), absent (2) days 
-
-4. List vs Tuple
-Tuple: Immutable, ( ), faster | List: Mutable, [ ], slower 
+Python tuples were successfully studied and all operations including creation, indexing, slicing, unpacking, and built-in functions worked perfectly!
