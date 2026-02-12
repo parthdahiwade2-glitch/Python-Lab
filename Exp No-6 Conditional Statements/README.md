@@ -133,6 +133,30 @@ else:
 
 Program 1: Voting Eligibility with Citizenship
 
+Problem statements
+
+1. Find out wether a given year is leap or not.
+
+2. Write a python program to check if a date is valid and print the incremented date if it is valid.
+
+3. Write a python program to calculate the gross salary of an employee based on basic salary.
+
+If basic <= 10000: HRA = 20%, DA = 80%
+
+If basic <= 20000: HRA = 25 %, DA = 90%
+
+Otherwise : HRA = 30%, DA = 95%
+
+4. Write a python program to calculate Income tax based on annual income:
+
+Up ti Rs.2,50,000: No tax
+
+
+Rs.2,50,001-Rs.5,00,000 : 5%
+Rs.5,00,001 - Rs.10,00,000: 20%
+
+Above Rs.10,00,000 :30%
+
 Conclusion
 
 Through this experiment, various decision-making constructs in Python — including if, if-else, if-elif-else, and nested if statements — were studied and implemented. These structures play a crucial role in developing logical and interactive programs by allowing them to evaluate conditions and respond accordingly. Understanding these concepts forms a strong foundation for solving real-world problems and building more advanced applications in Python.
