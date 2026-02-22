@@ -145,7 +145,8 @@ The one rule to keep in mind is that the total number of elements must stay the 
 NumPy makes matrix operations straightforward. Matrix multiplication can be done two ways:
 pythonnp.dot(arr1, arr2)
 
-# or more cleanly:
+___
+ or more cleanly:
 
 arr1 @ arr2
 
