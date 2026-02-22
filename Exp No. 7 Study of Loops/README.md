@@ -1,10 +1,10 @@
-#Parth Dahiwade
+Parth Dahiwade
 
-#ENTC - A3 | PRN - 25070123177
+ENTC - A3 | PRN - 25070123177
 
-#Experiment 7: Mastering Loops and Control Statements in Python
+Experiment 7: Mastering Loops and Control Statements in Python
 
-##Aim
+Aim
 
 To explore, understand, and practically implement the concepts of for loops, while loops, and loop control statements (break, continue, pass) in Python programming.
 
