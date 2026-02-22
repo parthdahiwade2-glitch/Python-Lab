@@ -1,4 +1,4 @@
-#Parth Dahiwade
+Parth Dahiwade
 
 EnTC A3 | PRN: 25070123177
 
