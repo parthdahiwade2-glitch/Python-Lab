@@ -1,6 +1,6 @@
 Parth Dahiwade
 
-EnTC A3 | PRN: 25070123177
+ENTC A3 | PRN: 25070123177
 
 Experiment – 13
 
