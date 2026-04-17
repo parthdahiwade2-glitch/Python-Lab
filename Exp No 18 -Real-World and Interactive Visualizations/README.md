@@ -115,15 +115,6 @@ linked = linkage(data, method='ward')
 
 dendrogram(linked)
 
-🔹 Sankey Diagram
-
-fig = go.Figure(data=[go.Sankey(
-
-    node=dict(label=["Admission", "First Year", "Second Year", "Placed"]),
-    
-    link=dict(source=[0, 1, 2], target=[1, 2, 3], value=[100, 80, 60])
-
-)])
 
 ___
 
