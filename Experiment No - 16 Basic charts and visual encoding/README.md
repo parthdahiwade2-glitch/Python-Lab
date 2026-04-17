@@ -110,12 +110,6 @@ bars = plt.bar(df['Days'], df['Marks'], color='cyan')
 
 for bar in bars:
 
-    y = bar.get_height()
-   
-    plt.text(bar.get_x() + bar.get_width()/2, y, str(y), 
-    
-             ha='center', va='bottom')
-
 🔹 Grouped Bar Chart
 
 x = np.arange(len(df['Days']))
