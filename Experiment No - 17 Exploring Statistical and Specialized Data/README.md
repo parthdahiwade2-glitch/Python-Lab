@@ -125,20 +125,7 @@ fig.gca().add_artist(centre_circle)
 
 🔹 Bubble Plot (Seaborn)
 
-sns.scatterplot(
-
-    x='Sales', 
-    
-    y='Profit', 
-    
-    size='Values', 
-    
-    hue='Values', 
-    
-    data=df, 
-    
-    sizes=(50, 300)
-)
+sns.scatterplot
 
 
 ___
